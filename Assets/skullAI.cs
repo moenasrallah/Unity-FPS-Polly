@@ -16,17 +16,10 @@ public class skullAI : MonoBehaviour {
 	}
 
 
-	void Start()
-	{
-		target = GameObject.FindWithTag("Weapon").transform;
-	}
-
-
 	void Update()
 	{
-		//rotate to look at the player
-		myTransform.rotation = Quaternion.Slerp(myTransform.rotation,
-			Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed * Time.deltaTime);
+        //rotate to look at the player
+        transform.LookAt(target);
 
 	}
 }

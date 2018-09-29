@@ -1,52 +1,121 @@
 fileFormatVersion: 2
 guid: 2c31ba3c985ea9f4192a125c3b9d71c7
-timeCreated: 1482016122
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: jaw
     100002: lteeth
     100004: skull
     100006: //RootNode
     100008: uteeth
+    100010: node_id11
+    100012: node_id13
+    100014: node_id5
+    100016: node_id7
+    100018: node_id9
+    100020: node_id10
+    100022: node_id12
+    100024: node_id14
+    100026: node_id6
+    100028: node_id8
     400000: jaw
     400002: lteeth
     400004: skull
     400006: //RootNode
     400008: uteeth
+    400010: node_id11
+    400012: node_id13
+    400014: node_id5
+    400016: node_id7
+    400018: node_id9
+    400020: node_id10
+    400022: node_id12
+    400024: node_id14
+    400026: node_id6
+    400028: node_id8
     2300000: jaw
     2300002: lteeth
     2300004: skull
     2300006: uteeth
+    2300008: node_id11
+    2300010: node_id5
+    2300012: node_id7
+    2300014: node_id9
+    2300016: node_id10
+    2300018: node_id12
+    2300020: node_id6
+    2300022: node_id8
     3300000: jaw
     3300002: lteeth
     3300004: skull
     3300006: uteeth
+    3300008: node_id11
+    3300010: node_id5
+    3300012: node_id7
+    3300014: node_id9
+    3300016: node_id10
+    3300018: node_id12
+    3300020: node_id6
+    3300022: node_id8
     4300000: jaw
     4300002: lteeth
     4300004: skull
     4300006: uteeth
+    4300008: node_id5
+    4300010: node_id7
+    4300012: node_id9
+    4300014: node_id11
+    4300016: node_id6
+    4300018: node_id8
+    4300020: node_id10
+    4300022: node_id12
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_35
+    second: {fileID: 2100000, guid: 9967e48af5733384b80a24da95708322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_36
+    second: {fileID: 2100000, guid: f43d529f6ffda004b9e128463deb9997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_37
+    second: {fileID: 2100000, guid: 6e3978922075f1c41a88464ca3210e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_38
+    second: {fileID: 2100000, guid: 6d383b8257a3c424588003e9f2736d5a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -54,25 +123,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -83,7 +161,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
